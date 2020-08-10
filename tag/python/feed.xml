@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="https://pmh10401.github.io/tag/python/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://pmh10401.github.io/" rel="alternate" type="text/html" />
+  <updated>2020-08-10T20:55:10+09:00</updated>
+  <id>https://pmh10401.github.io/tag/python/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Become a data-scientist | </title>
+  
+
+  
+    <subtitle>데이터 사이언티스트가 되어가는 중</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Python 강좌(1) - Python 기본</title>
+      <link href="https://pmh10401.github.io/python-basic" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" />
+      <published>2020-08-06T20:35:00+09:00</published>
+      <updated>2020-08-06T20:35:00+09:00</updated>
+      <id>https://pmh10401.github.io/python-basic</id>
+      <content type="html" xml:base="https://pmh10401.github.io/python-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;!--a herf 에는 _posts 폴더의 하위 폴더 안에 있는 파일의 이름 중 날짜를 제외하고 적는다--&gt;
+    &lt;!--그 다음에는 포스트의 타이틀을 적는다--&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt;
+
+&lt;p&gt;이 글은 python basic 입니다.!!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>pmh10401</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Python" />
+      
+
+      
+        <summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. Python 강좌(1) - Python 기본</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

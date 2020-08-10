@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> - Articles</title>
+    <description>데이터 사이언티스트가 되어가는 중</description>
+    <link>
+    https://pmh10401.github.io</link>
+    
+      
+      <item>
+        <title>Python 강좌(1) - Python 기본</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;!--a herf 에는 _posts 폴더의 하위 폴더 안에 있는 파일의 이름 중 날짜를 제외하고 적는다--&gt;
+    &lt;!--그 다음에는 포스트의 타이틀을 적는다--&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Thu, 06 Aug 2020 20:35:00 +0900</pubDate>
+        <link>
+        https://pmh10401.github.io/python-basic</link>
+        <guid isPermaLink="true">https://pmh10401.github.io/python-basic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Kaggle 강좌(1) - Kaggle 기본</title>
+        
+          <description>&lt;p&gt;이 글은 Kaggle basic 입니다.!!&lt;/p&gt;
+</description>
+        
+        <pubDate>Thu, 06 Aug 2020 20:35:00 +0900</pubDate>
+        <link>
+        https://pmh10401.github.io/Kaggle-basic</link>
+        <guid isPermaLink="true">https://pmh10401.github.io/Kaggle-basic</guid>
+      </item>
+      
+    
+  </channel>
+</rss>

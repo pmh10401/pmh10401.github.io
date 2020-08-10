@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="https://pmh10401.github.io/tag/kaggle/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://pmh10401.github.io/" rel="alternate" type="text/html" />
+  <updated>2020-08-10T20:55:10+09:00</updated>
+  <id>https://pmh10401.github.io/tag/kaggle/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Become a data-scientist | </title>
+  
+
+  
+    <subtitle>데이터 사이언티스트가 되어가는 중</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Kaggle 강좌(1) - Kaggle 기본</title>
+      <link href="https://pmh10401.github.io/Kaggle-basic" rel="alternate" type="text/html" title="Kaggle 강좌(1) - Kaggle 기본" />
+      <published>2020-08-06T20:35:00+09:00</published>
+      <updated>2020-08-06T20:35:00+09:00</updated>
+      <id>https://pmh10401.github.io/Kaggle-basic</id>
+      <content type="html" xml:base="https://pmh10401.github.io/Kaggle-basic">&lt;p&gt;이 글은 Kaggle basic 입니다.!!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>pmh10401</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Kaggle" />
+      
+
+      
+        <summary type="html">이 글은 Kaggle basic 입니다.!!</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

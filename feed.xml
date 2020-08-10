@@ -1,63 +1,8 @@
----
-layout: compress
-# Atom Feed, reference: https://validator.w3.org/feed/docs/atom.html
-# v2.0
-# https://github.com/cotes2020/jekyll-theme-chirpy
-# © 2019 Cotes Chung
-# MIT License
----
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://pmh10401.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pmh10401.github.io/" rel="alternate" type="text/html" /><updated>2020-08-10T20:55:10+09:00</updated><id>https://pmh10401.github.io/</id><title type="html">Become a data-scientist</title><subtitle>데이터 사이언티스트가 되어가는 중</subtitle><entry><title type="html">Python 강좌(1) - Python 기본</title><link href="https://pmh10401.github.io/python-basic" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" /><published>2020-08-06T20:35:00+09:00</published><updated>2020-08-06T20:35:00+09:00</updated><id>https://pmh10401.github.io/python-basic</id><content type="html" xml:base="https://pmh10401.github.io/python-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;!--a herf 에는 _posts 폴더의 하위 폴더 안에 있는 파일의 이름 중 날짜를 제외하고 적는다--&gt;
+    &lt;!--그 다음에는 포스트의 타이틀을 적는다--&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt;
 
-{% capture source %}
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <id>{{ site.url }}</id>
-  <title>{{ site.title }}</title>
-  <subtitle>{{ site.description }}</subtitle>
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <author>
-    <name>{{ site.author }}</name>
-    <uri>{{ site.url }}</uri>
-  </author>
-  <link href="/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="{{ site.url }}" rel="alternate" type="text/html" />
-  <generator uri="https://jekyllrb.com/" version="{{ jekyll.version }}">Jekyll</generator>
-  <rights> © {{ 'now' | date: '%Y' }} {{ site.author }} </rights>
-  <icon>{{ site.baseurl }}/assets/img/favicons/favicon.ico</icon>
-  <logo>{{ site.baseurl }}/assets/img/favicons/favicon-96x96.png</logo>
-
-{% for post in site.posts limit: 5 %}
-  {% assign post_absolute_url = site.url | append: post.url %}
-  <entry>
-    <title>{{ post.title }}</title>
-    <link href="{{ post_absolute_url }}" rel="alternate" type="text/html" title="{{ post.title }}" />
-    <published>{{ post.date | date_to_xmlschema }}</published>
-  {% if post.seo.date_modified %}
-    <updated>{{ post.seo.date_modified | date_to_xmlschema }}</updated>
-  {% else %}
-    <updated>{{ site.time | date_to_xmlschema }}</updated>
-  {% endif %}
-    <id>{{ post_absolute_url }}</id>
-    <content src="{{ post_absolute_url }}" />
-    <author>
-      <name>{{ site.author }}</name>
-    </author>
-
-  {% if post.categories %}
-    {% for category in post.categories %}
-    <category term="{{ category }}" />
-    {% endfor %}
-  {% endif %}
-
-  {% if post.summary %}
-    <summary>{{ post.summary | strip }}</summary>
-  {% else %}
-    <summary>
-      {% assign content = post.content %}
-      {% include no-linenos.html %}
-      {{ content | strip_html | truncate: 200 }}</summary>
-  {% endif %}
-
-  </entry>
-{% endfor %}
-</feed>
-{% endcapture %}
-{{ source | replace: '&', '&amp;' }}
+&lt;p&gt;이 글은 python basic 입니다.!!&lt;/p&gt;</content><author><name>pmh10401</name></author><category term="Python" /><summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. Python 강좌(1) - Python 기본</summary></entry><entry><title type="html">Kaggle 강좌(1) - Kaggle 기본</title><link href="https://pmh10401.github.io/Kaggle-basic" rel="alternate" type="text/html" title="Kaggle 강좌(1) - Kaggle 기본" /><published>2020-08-06T20:35:00+09:00</published><updated>2020-08-06T20:35:00+09:00</updated><id>https://pmh10401.github.io/Kaggle-basic</id><content type="html" xml:base="https://pmh10401.github.io/Kaggle-basic">&lt;p&gt;이 글은 Kaggle basic 입니다.!!&lt;/p&gt;</content><author><name>pmh10401</name></author><category term="Kaggle" /><summary type="html">이 글은 Kaggle basic 입니다.!!</summary></entry></feed>
